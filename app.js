@@ -24,7 +24,6 @@ function init() {
   });
 
   window.addEventListener("popstate", (data) => {
-    console.log("popstate!", data.state);
     renderRoute(window.location.pathname);
   });
 }
